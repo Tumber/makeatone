@@ -1,0 +1,88 @@
+body{
+
+	background-image: url(http://makeatone.com/images/background.jpg); 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.enter-button{
+	background: #36c2f3;
+	border: 0;
+	padding: 6px;
+	border-radius: 4px;
+	margin-left: 8px;
+	color: #d1ceed;
+	margin-bottom: 20px;
+	overflow: none;
+}
+
+.chords{
+	color: #716da6;
+	font-size: 120%;
+	font-family: Gill Sans Extrabold, system-ui;
+
+}
+
+.left-col{
+	width: 48%;
+	min-height: 600px;
+	margin: 0 auto;
+	float: left;
+}
+
+.right-col{
+	width: 48%;
+	min-height: 600px;
+	margin: 0 auto;
+	float: right;
+	margin-right: 20px;
+}
+
+header{
+	text-align: center;
+	margin: 40px;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #d1ceed;
+  }
+
+.new-chords-box{
+	border-radius: 4px;
+	margin-top: 4px;
+	width: 98%;
+	min-height: 400px;
+	background: white;
+	padding: 8px;
+	padding-left: 16px;
+	margin: auto;
+	float: left;
+}
+
+.chordstext{
+	padding: 8px;
+	padding-left: 16px;
+	border: 0;
+	border-radius: 4px;
+	height: 400px;
+	width: 98%;
+	margin: auto;
+}
+
+.trasport-inp{
+	width: 40px;
+}
+
+.ton-span{
+	margin-left: 6px;
+	color: #d1ceed;
+}
+
+.ton-span-chord{
+	font-size: 120%;
+	color: #d1ceed;
+	margin-left: 8px;
+}
