@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="icon" href="http://makeatone.com/icon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../icon/favicon.ico" type="image/x-icon">
 	
 	<title>Управляй тональностью</title>
 </head>
