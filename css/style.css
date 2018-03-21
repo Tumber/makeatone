@@ -1,88 +1,118 @@
-body{
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; }
 
-	background-image: url(http://makeatone.com/images/background.jpg); 
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+input[type=number] {
+  -moz-appearance: textfield; }
 
-.enter-button{
-	background: #36c2f3;
-	border: 0;
-	padding: 6px;
-	border-radius: 4px;
-	margin-left: 8px;
-	color: #d1ceed;
-	margin-bottom: 20px;
-	overflow: none;
-}
+body {
+  background-color: #00356a;
+  background-image: url(http://makeatone.com/images/background.png);
+  animation: bggrad 20s infinite;
+  animation-direction: forward; }
 
-.chords{
-	color: #716da6;
-	font-size: 120%;
-	font-family: Gill Sans Extrabold, system-ui;
+@keyframes bggrad {
+  0% {
+    background-color: #00356a; }
+  50% {
+    background-color: #408DD2; }
+  100% {
+    background-color: #00356a; } }
+header {
+  text-align: center;
+  margin: 40px; }
 
-}
-
-.left-col{
-	width: 48%;
-	min-height: 600px;
-	margin: 0 auto;
-	float: left;
-}
-
-.right-col{
-	width: 48%;
-	min-height: 600px;
-	margin: 0 auto;
-	float: right;
-	margin-right: 20px;
-}
-
-header{
-	text-align: center;
-	margin: 40px;
-}
+.instruction {
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  color: #e3e3e8;
+  border: 4px solid #e3e3e8;
+  border-radius: 20px; }
 
 .logo {
   font-size: 50px;
   font-weight: normal;
   cursor: pointer;
+  color: #e3e3e8; }
+
+.left-col {
+  width: 48%;
+  min-height: 600px;
+  margin: 0 auto;
+  float: left; }
+
+.right-col {
+  width: 48%;
+  min-height: 600px;
+  margin: 0 auto;
+  float: right;
+  margin-right: 20px; }
+
+.right-col button, .left-col button {
+  background: #36c2f3;
+  border: 0;
+  padding: 6px;
+  border-radius: 6px;
+  margin-left: 8px;
   color: #d1ceed;
-  }
+  margin-bottom: 20px;
+  overflow: none;
+  outline: none; }
+.right-col button:hover, .left-col button:hover {
+  background: #00a6dd; }
+.right-col button:active, .left-col button:active {
+  background: #0084ad; }
 
-.new-chords-box{
-	border-radius: 4px;
-	margin-top: 4px;
-	width: 98%;
-	min-height: 400px;
-	background: white;
-	padding: 8px;
-	padding-left: 16px;
-	margin: auto;
-	float: left;
-}
+.ton-span {
+  margin-left: 6px;
+  color: #e3e3e8; }
 
-.chordstext{
-	padding: 8px;
-	padding-left: 16px;
-	border: 0;
-	border-radius: 4px;
-	height: 400px;
-	width: 98%;
-	margin: auto;
-}
+.ton-span-chord {
+  font-size: 120%;
+  color: #e3e3e8;
+  margin-left: 8px; }
 
-.trasport-inp{
-	width: 40px;
-}
+.new-chords-box {
+  width: 98%;
+  min-height: 420px;
+  margin: auto;
+  float: left;
+  background: white;
+  border-radius: 4px;
+  padding-left: 16px; }
 
-.ton-span{
-	margin-left: 6px;
-	color: #d1ceed;
-}
+.chordstext {
+  margin: auto;
+  height: 400px;
+  width: 98%;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px;
+  padding-left: 16px;
+  padding-top: 14px; }
 
-.ton-span-chord{
-	font-size: 120%;
-	color: #d1ceed;
-	margin-left: 8px;
-}
+.chords {
+  color: #716da6;
+  font-size: 120%;
+  font-family: Gill Sans Extrabold, system-ui; }
+
+.transport-coun {
+  display: inline-block;
+  background: white;
+  border-radius: 8px; }
+  .transport-coun button:first-of-type {
+    margin: 0;
+    border-radius: 6px 0 0 6px; }
+  .transport-coun button:last-of-type {
+    margin: 0;
+    border-radius: 0 6px 6px 0; }
+  .transport-coun input {
+    width: 20px;
+    border: none;
+    background: none; }
+
+/*# sourceMappingURL=style.css.map */
